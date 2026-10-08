@@ -5,9 +5,8 @@ version: 1.1.0
 platforms: [windows, linux, macos]
 license: MIT
 metadata:
-  hermes:
-    tags: [folder, management, organization, caretaker, 文件夹, 整理, 治理]
-    related_skills: [windows-filesystem-management, knowledge-base-management, session-library-triage]
+  tags: [folder, management, organization, caretaker, 文件夹, 整理, 治理]
+  related_skills: [windows-filesystem-management, knowledge-base-management, session-library-triage]
 ---
 
 # Folder Caretaker — 文件夹自治管理
@@ -171,5 +170,5 @@ metadata:
 - **不删除任何文件**——删除是用户专属决策，只列出建议
 - **声明是给所有 agent 看的**——语言用通用规范（中文+必要英文），不写"我"、"这个 agent"
 - **识别类型不确定时问用户**，不要猜
-- **应用文件夹（如 D:\软件）默认只生成声明不做功能 B**——用户明确不接受重组（历史教训）
+- **应用文件夹（如应用安装目录）默认只生成声明不做功能 B**——用户明确不接受重组（历史教训）
 - **验收标准 8 条逐项过**——整理完不自检=白整理，下个 agent 看到的还是乱
